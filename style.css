@@ -16,11 +16,9 @@ a {
 }
 
 .header_container {
+    background-image: url(../image/header/bg.png);
     height: 768px;
-    margin: 0 auto;
-    padding: 0 250px;
-    max-width: 1440px;
-    background-image: url("/image/header/bg.png");
+    max-width: 100%;
     text-align: center;
     color: white;
 }
