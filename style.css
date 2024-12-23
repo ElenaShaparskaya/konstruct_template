@@ -16,7 +16,7 @@ a {
 }
 
 .header_container {
-    background-image: url(../image/header/bg.png);
+    background-image: url(./image/header/bg.png);
     height: 768px;
     max-width: 100%;
     text-align: center;
