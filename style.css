@@ -102,13 +102,28 @@ h2 {
     text-transform: uppercase;
 }
 
-.footer_content {
+.footer1 {
     background-color: #141a20;
+}
+
+.footer_content {
     color: white;
+    display: grid;
+    grid-template-columns: 250px 252px 115px 87px;
+    gap: 70px;
 }
 
 .footer_link a {
     color: white;
 }
 
-.footer_copyright {}
+.footer2 {
+    background-color: #171819;
+}
+
+.footer_copyright {
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    padding: 12px 0 20px;
+}
