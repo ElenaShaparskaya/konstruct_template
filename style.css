@@ -101,3 +101,14 @@ a {
 h2 {
     text-transform: uppercase;
 }
+
+.footer_content {
+    background-color: #141a20;
+    color: white;
+}
+
+.footer_link a {
+    color: white;
+}
+
+.footer_copyright {}
