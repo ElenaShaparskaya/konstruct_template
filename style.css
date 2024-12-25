@@ -15,10 +15,16 @@ a {
     text-decoration: none;
 }
 
+header {
+    min-width: 100%;
+}
+
 .header_container {
-    background-image: url(../image/header/bg.png);
+    background-image: url("../image/header/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 768px;
-    max-width: 100%;
+    width: 100%;
     text-align: center;
     color: white;
 }
