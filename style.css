@@ -74,12 +74,13 @@ a {
 
 .nav_container {
     margin: 0 auto;
-    padding: 0 250px;
-    max-width: 1440px;
     border-width: 1px 0px;
     border-style: solid;
     border-color: #48555B;
     padding: 15px 0 10px;
+}
+
+.nav_content {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -93,27 +94,22 @@ a {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 0;
+    color: #48555B;
+    gap: 24px;
+}
+
+.nav_menu li {
+    padding-right: 24px;
+    width: 72px;
+    text-align: center;
 }
 
 .nav_menu li:last-child {
     padding-right: 0;
 }
 
-.nav_menu a {
-    color: #48555B;
-}
-
-.nav_menu a:hover {
-    color: #00A4E5;
-}
-
-.nav_menu li {
-    padding-right: 24px;
-    width: 62px;
-    text-align: center;
-}
-
 .nav_menu li:hover {
+    color: #00A4E5;
     cursor: pointer;
     font-weight: 700;
 }
