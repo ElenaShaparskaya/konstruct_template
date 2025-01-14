@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet');
+
 
 html {
     box-sizing: border-box;
@@ -187,8 +189,8 @@ a {
 }
 
 .story_h2 {
+    font-family: Adamina;
     text-transform: uppercase;
-    font-weight: 800;
     color: #fff;
     line-height: 29px;
     padding: 15px 58px 151px 14px;
@@ -241,16 +243,29 @@ a {
     color: white;
 }
 
-.capabilities_content {}
+.capabilities_content {
+    margin-top: 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
 
-.capabilities_item {}
+.capabilities_item {
+    width: 295px;
+    height: 330px;
+    border: #E6E6E6 1px solid;
+    padding: 37px 18px 39px 22px;
+    margin-right: 28px;
+}
 
-.capabilities_item img {}
+.capabilities_item:last-child {
+    margin-right: 0;
+}
 
 .capabilities_item h4 {
     font-weight: 600;
     font-size: 16px;
-    margin-top: -1px;
+    margin-top: 20px;
 }
 
 .capabilities_item p {
@@ -258,6 +273,45 @@ a {
     line-height: 23px;
     letter-spacing: 0.19px;
     color: #48555B;
+    margin-top: 13px;
+}
+
+.get-in-touch {
+    margin-top: 115px;
+    background-image: url("./image/bg-get.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.get-in-touch_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px 0 231px;
+}
+
+.get-in-touch_title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #48555B;
+    text-align: center;
+    margin-bottom: 35px;
+    max-width: 350px;
+}
+
+.get-in-touch_btn {
+    background-color: #00A4E5;
+    border: none;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: Actor;
+    font-size: 13px;
+    color: white;
 }
 
 .footer1 {
